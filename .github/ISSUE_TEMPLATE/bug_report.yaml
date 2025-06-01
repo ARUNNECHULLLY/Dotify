@@ -67,7 +67,7 @@ body:
         When submitting these logs here, please upload them as a file or upload them on [Pastebin](https://pastebin.com/). This way the issue ticket won't end up looking like a total mess.
 
   - type: input
-    id: vitune-version
+    id: dotify-version
     attributes:
       label: ViTune version
       placeholder: |
@@ -76,7 +76,7 @@ body:
       required: true
 
   - type: dropdown
-    id: vitune-version-type
+    id: dotify-version-type
     attributes:
       label: What kind of build are you using?
       description: If you are using a debug build, please provide the exact commit hash above.
@@ -113,7 +113,7 @@ body:
       required: true
 
   - type: textarea
-    id: vitune-issue-description
+    id: dotify-issue-description
     attributes:
       label: Upstream reproducibility
       placeholder: |

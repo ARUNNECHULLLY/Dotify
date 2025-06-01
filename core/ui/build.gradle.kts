@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "app.vitune.core.ui"
+    namespace = "app.dotify.core.ui"
     compileSdk = 36
 
     defaultConfig {

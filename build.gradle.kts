@@ -18,8 +18,8 @@ val clean by tasks.registering(Delete::class) {
 }
 
 allprojects {
-    group = "app.vitune"
-    version = "1.1.4"
+    group = "app.dotify"
+    version = "1.1.5"
 
     apply(plugin = "io.gitlab.arturbosch.detekt")
 

@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "app.vitune.compose.preferences"
+    namespace = "app.dotify.compose.preferences"
     compileSdk = 36
 
     defaultConfig {
